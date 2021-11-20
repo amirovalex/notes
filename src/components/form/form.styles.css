@@ -1,0 +1,76 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-edit {
+  padding-top: 1rem;
+}
+
+#addButton {
+  background-color: #fff;
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #b07c79;
+  outline: none;
+}
+
+.form-container-on-edit {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#closeButton {
+  align-self: flex-end;
+}
+
+#addButton:hover {
+  color: #fff;
+  background-color: #b07c79;
+  cursor: pointer;
+}
+
+#textArea {
+  background-color: #adc5db;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+  overflow: auto;
+  border: 3px solid #b07c79;
+  border-radius: 10px;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+#formContainer {
+  margin: 1rem;
+  border-radius: 10px;
+  width: 50%;
+  padding: 1rem;
+  box-shadow: 0px 0px 40px -15px rgba(0, 0, 0, 0.75);
+  background-color: #e6927c;
+  height: 30%;
+}
+
+#title {
+  border-radius: 10px;
+  border: 3px solid #b07c79;
+  background-color: #adc5db;
+  outline: none;
+  height: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  #formContainer {
+    width: 80%;
+  }
+}
